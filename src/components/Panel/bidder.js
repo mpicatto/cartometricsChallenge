@@ -80,7 +80,7 @@ const Bidder = (props)=>{
             </div>
             <div style={formStyle}>
                 <label>CORREO ELECTRONICO:</label>
-                <input type="email" name="email" onChange={(e)=>handleInputChange(e)} required/>
+                <input type="email" name="email" onChange={(e)=>handleInputChange(e)} value={bidderData.email} required/>
             </div>
             <div style={formStyle}>
                 <label>PRECIO DE COMPRA:</label>
